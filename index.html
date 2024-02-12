@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lição Bootstrap Avançado</title>
+    <link rel="stylesheet" href="./librarys/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div>
+        <header>
+            <div class="container-header">
+                <h1>Gazeta Pro</h1>
+                <div>
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#destaque">Destaques</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#eventos">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#noticias">Noticias</a>
+                        </li>
+                    </ul>
+                </div>
+        </header>
+    
+        <section id="destaque" >
+        <div>
+            <div id="carouselExampleAutoplaying" class="carousel slide container-carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="container-img" src="https://cdn.pixabay.com/photo/2016/09/06/08/59/news-1648518_960_720.jpg"  alt="noticia">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="container-img" src="https://cdn.pixabay.com/photo/2019/03/01/10/43/news-4027678_960_720.jpg"  alt="noticia">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="container-img" src="https://cdn.pixabay.com/photo/2014/08/07/21/03/newspaper-412763_1280.jpg"  alt="noticia">
+                    </div>
+                </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+            </div>
+        </div>
+        </section>
+
+        <section id="eventos">
+            <div class="card text-bg-dark container-card">
+                <img src="https://cdn.pixabay.com/photo/2018/04/16/17/51/panorama-3325360_1280.jpg" class="card-img imagem-responsiva" alt="imagem de cidade a noite">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text.</p>
+                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="noticias">
+            <div class="container-sm text-center">
+                <div class="row row-cols-auto justify-content-center">
+                    <div class="col-xl-4">
+                        <div class="card card-style" style="height: 20rem;">
+                            <img src="https://cdn.pixabay.com/photo/2017/08/19/20/11/semi-2659736_960_720.jpg" class="card-img-top" alt="caminhão tombado">
+                            <div class="card-body">
+                                <p class="card-text">Acidente grave na BR-246 sentido litoral envolvendo dois caminhões e um carro, <strong>4</strong> pessoas morrearam</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4">
+                        <div class="card card-style" style="height: 20rem;">
+                            <img src="https://cdn.pixabay.com/photo/2017/08/19/20/11/semi-2659736_960_720.jpg" class="card-img-top" alt="caminhão tombado">
+                            <div class="card-body">
+                                <p class="card-text">Acidente grave na BR-246 sentido litoral envolvendo dois caminhões e um carro, <strong>4</strong> pessoas morrearam</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4">
+                        <div class="card card-style" style="height: 20rem;">
+                            <img src="https://cdn.pixabay.com/photo/2017/08/19/20/11/semi-2659736_960_720.jpg" class="card-img-top" alt="caminhão tombado">
+                            <div class="card-body">
+                                <p class="card-text">Acidente grave na BR-246 sentido litoral envolvendo dois caminhões e um carro, <strong>4</strong> pessoas morrearam</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4">
+                        <div class="card card-style" style="height: 20rem;">
+                            <img src="https://cdn.pixabay.com/photo/2017/08/19/20/11/semi-2659736_960_720.jpg" class="card-img-top" alt="caminhão tombado">
+                            <div class="card-body">
+                                <p class="card-text">Acidente grave na BR-246 sentido litoral envolvendo dois caminhões e um carro, <strong>4</strong> pessoas morrearam</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4">
+                        <div class="card card-style" style="height: 20rem;">
+                            <img src="https://cdn.pixabay.com/photo/2017/08/19/20/11/semi-2659736_960_720.jpg" class="card-img-top" alt="caminhão tombado">
+                            <div class="card-body">
+                                <p class="card-text">Acidente grave na BR-246 sentido litoral envolvendo dois caminhões e um carro, <strong>4</strong> pessoas morrearam</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4">
+                        <div class="card card-style" style="height: 20rem;">
+                            <img src="https://cdn.pixabay.com/photo/2017/08/19/20/11/semi-2659736_960_720.jpg" class="card-img-top" alt="caminhão tombado">
+                            <div class="card-body">
+                                <p class="card-text">Acidente grave na BR-246 sentido litoral envolvendo dois caminhões e um carro, <strong>4</strong> pessoas morrearam</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div>
+                &copy;Todos os direitos Reservados - 2024 - BR
+            </div>
+        </footer>
+    </div>
+    <script src="./librarys/bootstrap.bundle.min.js"></script>
+</body>
+</html>
